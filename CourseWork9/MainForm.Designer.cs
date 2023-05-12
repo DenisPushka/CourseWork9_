@@ -261,7 +261,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1006, 927);
+            this.tabPage2.Size = new System.Drawing.Size(996, 927);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "УА-ОА";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -272,9 +272,7 @@
             this.checkedListBox_Ply.Enabled = false;
             this.checkedListBox_Ply.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkedListBox_Ply.FormattingEnabled = true;
-            this.checkedListBox_Ply.Items.AddRange(new object[] {
-            "X2",
-            "X3"});
+            this.checkedListBox_Ply.Items.AddRange(new object[] { "X2", "X3" });
             this.checkedListBox_Ply.Location = new System.Drawing.Point(220, 545);
             this.checkedListBox_Ply.Name = "checkedListBox_Ply";
             this.checkedListBox_Ply.Size = new System.Drawing.Size(69, 64);
@@ -287,26 +285,7 @@
             this.checkedListBox_T.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkedListBox_T.ForeColor = System.Drawing.SystemColors.InfoText;
             this.checkedListBox_T.FormattingEnabled = true;
-            this.checkedListBox_T.Items.AddRange(new object[] {
-            "T0",
-            "T1",
-            "T2",
-            "T3",
-            "T4",
-            "T5",
-            "T6",
-            "T7",
-            "T8",
-            "T9",
-            "T10",
-            "T11",
-            "T12",
-            "T13",
-            "T14",
-            "T15",
-            "T16",
-            "T17",
-            "T18"});
+            this.checkedListBox_T.Items.AddRange(new object[] { "T0", "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12", "T13", "T14", "T15", "T16", "T17", "T18" });
             this.checkedListBox_T.Location = new System.Drawing.Point(501, 403);
             this.checkedListBox_T.Name = "checkedListBox_T";
             this.checkedListBox_T.Size = new System.Drawing.Size(72, 498);
@@ -318,25 +297,7 @@
             this.checkedListBox_Y.Enabled = false;
             this.checkedListBox_Y.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkedListBox_Y.FormattingEnabled = true;
-            this.checkedListBox_Y.Items.AddRange(new object[] {
-            "y0",
-            "y1",
-            "y2",
-            "y3",
-            "y4",
-            "y5",
-            "y6",
-            "y7",
-            "y8",
-            "y9",
-            "y10",
-            "y11",
-            "y12",
-            "y13",
-            "y14",
-            "y15",
-            "y16",
-            "y17"});
+            this.checkedListBox_Y.Items.AddRange(new object[] { "y0", "y1", "y2", "y3", "y4", "y5", "y6", "y7", "y8", "y9", "y10", "y11", "y12", "y13", "y14", "y15", "y16", "y17" });
             this.checkedListBox_Y.Location = new System.Drawing.Point(579, 620);
             this.checkedListBox_Y.MultiColumn = true;
             this.checkedListBox_Y.Name = "checkedListBox_Y";
@@ -349,14 +310,7 @@
             this.checkedListBox_X.Enabled = false;
             this.checkedListBox_X.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkedListBox_X.FormattingEnabled = true;
-            this.checkedListBox_X.Items.AddRange(new object[] {
-            "X0",
-            "X1",
-            "X2",
-            "X3",
-            "X4",
-            "X5",
-            "X6"});
+            this.checkedListBox_X.Items.AddRange(new object[] { "X0", "X1", "X2", "X3", "X4", "X5", "X6" });
             this.checkedListBox_X.Location = new System.Drawing.Point(833, 513);
             this.checkedListBox_X.Name = "checkedListBox_X";
             this.checkedListBox_X.Size = new System.Drawing.Size(61, 214);
@@ -368,11 +322,7 @@
             this.checkedListBox_D.Enabled = false;
             this.checkedListBox_D.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkedListBox_D.FormattingEnabled = true;
-            this.checkedListBox_D.Items.AddRange(new object[] {
-            "D0",
-            "D1",
-            "D2",
-            "D3"});
+            this.checkedListBox_D.Items.AddRange(new object[] { "D0", "D1", "D2", "D3" });
             this.checkedListBox_D.Location = new System.Drawing.Point(787, 114);
             this.checkedListBox_D.Name = "checkedListBox_D";
             this.checkedListBox_D.Size = new System.Drawing.Size(65, 124);
@@ -386,17 +336,7 @@
             this.checkedListBox_A.FormattingEnabled = true;
             this.checkedListBox_A.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.checkedListBox_A.IntegralHeight = false;
-            this.checkedListBox_A.Items.AddRange(new object[] {
-            "A0",
-            "A1",
-            "A2",
-            "A3",
-            "A4",
-            "A5",
-            "A6",
-            "A7",
-            "A8",
-            "A9"});
+            this.checkedListBox_A.Items.AddRange(new object[] { "A0", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9" });
             this.checkedListBox_A.Location = new System.Drawing.Point(380, 52);
             this.checkedListBox_A.MultiColumn = true;
             this.checkedListBox_A.Name = "checkedListBox_A";
@@ -410,11 +350,7 @@
             this.checkedListBox_Dt.Enabled = false;
             this.checkedListBox_Dt.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkedListBox_Dt.FormattingEnabled = true;
-            this.checkedListBox_Dt.Items.AddRange(new object[] {
-            "D0",
-            "D1",
-            "D2",
-            "D3"});
+            this.checkedListBox_Dt.Items.AddRange(new object[] { "D0", "D1", "D2", "D3" });
             this.checkedListBox_Dt.Location = new System.Drawing.Point(223, 127);
             this.checkedListBox_Dt.Name = "checkedListBox_Dt";
             this.checkedListBox_Dt.Size = new System.Drawing.Size(71, 124);
@@ -546,11 +482,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(14, 194);
+            this.label6.Location = new System.Drawing.Point(375, 193);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(30, 29);
+            this.label6.Size = new System.Drawing.Size(50, 29);
             this.label6.TabIndex = 8;
-            this.label6.Text = "C";
+            this.label6.Text = "C =";
             // 
             // label5
             // 
@@ -585,10 +521,10 @@
             this.dataGridView_C.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView_C.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView_C.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_C.Location = new System.Drawing.Point(52, 187);
+            this.dataGridView_C.Location = new System.Drawing.Point(427, 187);
             this.dataGridView_C.Name = "dataGridView_C";
             this.dataGridView_C.ReadOnly = true;
-            this.dataGridView_C.Size = new System.Drawing.Size(800, 46);
+            this.dataGridView_C.Size = new System.Drawing.Size(425, 46);
             this.dataGridView_C.TabIndex = 3;
             // 
             // dataGridView_D
@@ -822,7 +758,6 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
-
         }
 
         private System.Windows.Forms.Button button_reset_B;
