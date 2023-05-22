@@ -92,9 +92,11 @@ namespace CourseWork9
                 var index = dataGridView_AM.Columns.Add("column_" + i, i.ToString());
                 dataGridView_BM.Columns.Add("column_" + i, i.ToString());
                 dataGridView_D.Columns.Add("column_" + i, i.ToString());
+                dataGridView_C.Columns.Add("column_" + i, i.ToString());
                 dataGridView_AM.Columns[index].Width = widthColumn;
                 dataGridView_BM.Columns[index].Width = widthColumn;
                 dataGridView_D.Columns[index].Width = widthColumn;
+                dataGridView_C.Columns[index].Width = widthColumn;
                 width += widthColumn;
             }
 
@@ -104,26 +106,17 @@ namespace CourseWork9
             dataGridView_BM.Width = width + 3;
             dataGridView_D.Height = 45;
             dataGridView_D.Width = width + 3;
-            width = 0;
-
-            for (var i = 17 - 1; i >= 0; i--)
-            {
-                var index = dataGridView_C.Columns.Add("column_" + i, i.ToString());
-                dataGridView_C.Columns[index].Width = widthColumn;
-                width += widthColumn;
-            }
-
             dataGridView_C.Height = 45;
             dataGridView_C.Width = width + 3;
 
             dataGridView_A.Rows.Add(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
             dataGridView_B.Rows.Add(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-            dataGridView_C.Rows.Add(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+            dataGridView_C.Rows.Add(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
             dataGridView_AM.Rows.Add(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
             dataGridView_BM.Rows.Add(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-
             dataGridView_D.Rows.Add(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
             dataGridView_Count.Rows.Add(0, 0, 0, 0);
@@ -168,10 +161,11 @@ namespace CourseWork9
             UpdateInfoRegister(dataGridView_Count, count, 4);
 
             // update info about number C.
-            var bufferRes = Convert.ToString(c, 2).PadLeft(32, '0');
-
-            for (int i = 17 - 1, q = 31; i >= 0; i--, q--)
-                dataGridView_C.Rows[0].Cells[i].Value = bufferRes[q];
+            UpdateInfoRegister(dataGridView_C, c, 32);
+            // var bufferRes = Convert.ToString(c, 2).PadLeft(32, '0');
+            //
+            // for (int i = 17 - 1, q = 31; i >= 0; i--, q--)
+            //     dataGridView_C.Rows[0].Cells[i].Value = bufferRes[q];
         }
 
         /// <summary>

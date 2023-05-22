@@ -482,11 +482,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(375, 193);
+            this.label6.Location = new System.Drawing.Point(11, 204);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 29);
+            this.label6.Size = new System.Drawing.Size(30, 29);
             this.label6.TabIndex = 8;
-            this.label6.Text = "C =";
+            this.label6.Text = "C";
             // 
             // label5
             // 
@@ -521,10 +521,10 @@
             this.dataGridView_C.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView_C.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView_C.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_C.Location = new System.Drawing.Point(427, 187);
+            this.dataGridView_C.Location = new System.Drawing.Point(52, 187);
             this.dataGridView_C.Name = "dataGridView_C";
             this.dataGridView_C.ReadOnly = true;
-            this.dataGridView_C.Size = new System.Drawing.Size(425, 46);
+            this.dataGridView_C.Size = new System.Drawing.Size(800, 46);
             this.dataGridView_C.TabIndex = 3;
             // 
             // dataGridView_D
